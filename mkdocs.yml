@@ -1,0 +1,18 @@
+site_name: Test book
+repo_url: https://github.com/seanmadsen/civicrm-docs-test-book
+site_description: A book for testing the publishing system
+theme: material
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
+pages:
+- Home: index.md
+
